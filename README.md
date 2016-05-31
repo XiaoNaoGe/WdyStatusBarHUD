@@ -1,5 +1,9 @@
 # WdyStatusBarHUD
+<<<<<<< HEAD
 一个非常简单好用的上面弹出的指示器，覆盖状态栏和导航条
+=======
+简单方便的上面弹出的指示器，覆盖导航条状态栏
+>>>>>>> origin/master
 ## 显示成功信息
 ```objc
 [WdyStatusBarHUD showSuccess:@"加载成功"];
@@ -23,4 +27,8 @@
 ## 隐藏指示器
 ```objc
 [WdyStatusBarHUD hideStatusBarHUD];
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> origin/master
