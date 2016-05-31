@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E4A4DB61CFD28D6003FA151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A4DB41CFD28D6003FA151 /* Main.storyboard */; };
+		5E79BE8A1CFD2B290088C4BD /* WdyStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E79BE881CFD2B290088C4BD /* WdyStatusBarHUD.m */; };
+		5E79BE8B1CFD2B290088C4BD /* WdyStatusHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E79BE891CFD2B290088C4BD /* WdyStatusHUD.bundle */; };
+		5EBA3A5F1CFD2758002762D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA3A5E1CFD2758002762D8 /* main.m */; };
+		5EBA3A621CFD2758002762D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA3A611CFD2758002762D8 /* AppDelegate.m */; };
+		5EBA3A651CFD2758002762D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA3A641CFD2758002762D8 /* ViewController.m */; };
+		5EBA3A6A1CFD2758002762D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA3A691CFD2758002762D8 /* Assets.xcassets */; };
+		5EBA3A6D1CFD2758002762D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA3A6B1CFD2758002762D8 /* LaunchScreen.storyboard */; };
+		5EBA3A781CFD2758002762D8 /* WdyStatusBarHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA3A771CFD2758002762D8 /* WdyStatusBarHUDTests.m */; };
+		5EBA3A831CFD2758002762D8 /* WdyStatusBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA3A821CFD2758002762D8 /* WdyStatusBarHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EBA3A741CFD2758002762D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EBA3A521CFD2758002762D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBA3A591CFD2758002762D8;
+			remoteInfo = WdyStatusBarHUD;
+		};
+		5EBA3A7F1CFD2758002762D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EBA3A521CFD2758002762D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBA3A591CFD2758002762D8;
+			remoteInfo = WdyStatusBarHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E4A4DB51CFD28D6003FA151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E79BE871CFD2B290088C4BD /* WdyStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WdyStatusBarHUD.h; sourceTree = "<group>"; };
+		5E79BE881CFD2B290088C4BD /* WdyStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WdyStatusBarHUD.m; sourceTree = "<group>"; };
+		5E79BE891CFD2B290088C4BD /* WdyStatusHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WdyStatusHUD.bundle; sourceTree = "<group>"; };
+		5EBA3A5A1CFD2758002762D8 /* WdyStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WdyStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBA3A5E1CFD2758002762D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EBA3A601CFD2758002762D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EBA3A611CFD2758002762D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EBA3A631CFD2758002762D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EBA3A641CFD2758002762D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EBA3A691CFD2758002762D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBA3A6C1CFD2758002762D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EBA3A6E1CFD2758002762D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBA3A731CFD2758002762D8 /* WdyStatusBarHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WdyStatusBarHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBA3A771CFD2758002762D8 /* WdyStatusBarHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WdyStatusBarHUDTests.m; sourceTree = "<group>"; };
+		5EBA3A791CFD2758002762D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBA3A7E1CFD2758002762D8 /* WdyStatusBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WdyStatusBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBA3A821CFD2758002762D8 /* WdyStatusBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WdyStatusBarHUDUITests.m; sourceTree = "<group>"; };
+		5EBA3A841CFD2758002762D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EBA3A571CFD2758002762D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A701CFD2758002762D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A7B1CFD2758002762D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E79BE861CFD2B290088C4BD /* WdyStatuBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5E79BE871CFD2B290088C4BD /* WdyStatusBarHUD.h */,
+				5E79BE881CFD2B290088C4BD /* WdyStatusBarHUD.m */,
+				5E79BE891CFD2B290088C4BD /* WdyStatusHUD.bundle */,
+			);
+			name = WdyStatuBarHUD;
+			path = ../../WdyStatuBarHUD;
+			sourceTree = "<group>";
+		};
+		5EBA3A511CFD2758002762D8 = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A5C1CFD2758002762D8 /* WdyStatusBarHUD */,
+				5EBA3A761CFD2758002762D8 /* WdyStatusBarHUDTests */,
+				5EBA3A811CFD2758002762D8 /* WdyStatusBarHUDUITests */,
+				5EBA3A5B1CFD2758002762D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EBA3A5B1CFD2758002762D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A5A1CFD2758002762D8 /* WdyStatusBarHUD.app */,
+				5EBA3A731CFD2758002762D8 /* WdyStatusBarHUDTests.xctest */,
+				5EBA3A7E1CFD2758002762D8 /* WdyStatusBarHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EBA3A5C1CFD2758002762D8 /* WdyStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A601CFD2758002762D8 /* AppDelegate.h */,
+				5EBA3A611CFD2758002762D8 /* AppDelegate.m */,
+				5EBA3A631CFD2758002762D8 /* ViewController.h */,
+				5EBA3A641CFD2758002762D8 /* ViewController.m */,
+				5E79BE861CFD2B290088C4BD /* WdyStatuBarHUD */,
+				5EBA3A691CFD2758002762D8 /* Assets.xcassets */,
+				5E4A4DB41CFD28D6003FA151 /* Main.storyboard */,
+				5EBA3A6B1CFD2758002762D8 /* LaunchScreen.storyboard */,
+				5EBA3A6E1CFD2758002762D8 /* Info.plist */,
+				5EBA3A5D1CFD2758002762D8 /* Supporting Files */,
+			);
+			path = WdyStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		5EBA3A5D1CFD2758002762D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A5E1CFD2758002762D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EBA3A761CFD2758002762D8 /* WdyStatusBarHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A771CFD2758002762D8 /* WdyStatusBarHUDTests.m */,
+				5EBA3A791CFD2758002762D8 /* Info.plist */,
+			);
+			path = WdyStatusBarHUDTests;
+			sourceTree = "<group>";
+		};
+		5EBA3A811CFD2758002762D8 /* WdyStatusBarHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBA3A821CFD2758002762D8 /* WdyStatusBarHUDUITests.m */,
+				5EBA3A841CFD2758002762D8 /* Info.plist */,
+			);
+			path = WdyStatusBarHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EBA3A591CFD2758002762D8 /* WdyStatusBarHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBA3A871CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUD" */;
+			buildPhases = (
+				5EBA3A561CFD2758002762D8 /* Sources */,
+				5EBA3A571CFD2758002762D8 /* Frameworks */,
+				5EBA3A581CFD2758002762D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WdyStatusBarHUD;
+			productName = WdyStatusBarHUD;
+			productReference = 5EBA3A5A1CFD2758002762D8 /* WdyStatusBarHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EBA3A721CFD2758002762D8 /* WdyStatusBarHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBA3A8A1CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUDTests" */;
+			buildPhases = (
+				5EBA3A6F1CFD2758002762D8 /* Sources */,
+				5EBA3A701CFD2758002762D8 /* Frameworks */,
+				5EBA3A711CFD2758002762D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBA3A751CFD2758002762D8 /* PBXTargetDependency */,
+			);
+			name = WdyStatusBarHUDTests;
+			productName = WdyStatusBarHUDTests;
+			productReference = 5EBA3A731CFD2758002762D8 /* WdyStatusBarHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EBA3A7D1CFD2758002762D8 /* WdyStatusBarHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBA3A8D1CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUDUITests" */;
+			buildPhases = (
+				5EBA3A7A1CFD2758002762D8 /* Sources */,
+				5EBA3A7B1CFD2758002762D8 /* Frameworks */,
+				5EBA3A7C1CFD2758002762D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBA3A801CFD2758002762D8 /* PBXTargetDependency */,
+			);
+			name = WdyStatusBarHUDUITests;
+			productName = WdyStatusBarHUDUITests;
+			productReference = 5EBA3A7E1CFD2758002762D8 /* WdyStatusBarHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EBA3A521CFD2758002762D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					5EBA3A591CFD2758002762D8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5EBA3A721CFD2758002762D8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5EBA3A591CFD2758002762D8;
+					};
+					5EBA3A7D1CFD2758002762D8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5EBA3A591CFD2758002762D8;
+					};
+				};
+			};
+			buildConfigurationList = 5EBA3A551CFD2758002762D8 /* Build configuration list for PBXProject "WdyStatusBarHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EBA3A511CFD2758002762D8;
+			productRefGroup = 5EBA3A5B1CFD2758002762D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EBA3A591CFD2758002762D8 /* WdyStatusBarHUD */,
+				5EBA3A721CFD2758002762D8 /* WdyStatusBarHUDTests */,
+				5EBA3A7D1CFD2758002762D8 /* WdyStatusBarHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EBA3A581CFD2758002762D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E79BE8B1CFD2B290088C4BD /* WdyStatusHUD.bundle in Resources */,
+				5EBA3A6D1CFD2758002762D8 /* LaunchScreen.storyboard in Resources */,
+				5EBA3A6A1CFD2758002762D8 /* Assets.xcassets in Resources */,
+				5E4A4DB61CFD28D6003FA151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A711CFD2758002762D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A7C1CFD2758002762D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBA3A561CFD2758002762D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBA3A651CFD2758002762D8 /* ViewController.m in Sources */,
+				5EBA3A621CFD2758002762D8 /* AppDelegate.m in Sources */,
+				5E79BE8A1CFD2B290088C4BD /* WdyStatusBarHUD.m in Sources */,
+				5EBA3A5F1CFD2758002762D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A6F1CFD2758002762D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBA3A781CFD2758002762D8 /* WdyStatusBarHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA3A7A1CFD2758002762D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBA3A831CFD2758002762D8 /* WdyStatusBarHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EBA3A751CFD2758002762D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBA3A591CFD2758002762D8 /* WdyStatusBarHUD */;
+			targetProxy = 5EBA3A741CFD2758002762D8 /* PBXContainerItemProxy */;
+		};
+		5EBA3A801CFD2758002762D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBA3A591CFD2758002762D8 /* WdyStatusBarHUD */;
+			targetProxy = 5EBA3A7F1CFD2758002762D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E4A4DB41CFD28D6003FA151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4A4DB51CFD28D6003FA151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EBA3A6B1CFD2758002762D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EBA3A6C1CFD2758002762D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EBA3A851CFD2758002762D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EBA3A861CFD2758002762D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EBA3A881CFD2758002762D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WdyStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EBA3A891CFD2758002762D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WdyStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EBA3A8B1CFD2758002762D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WdyStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WdyStatusBarHUD.app/WdyStatusBarHUD";
+			};
+			name = Debug;
+		};
+		5EBA3A8C1CFD2758002762D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WdyStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WdyStatusBarHUD.app/WdyStatusBarHUD";
+			};
+			name = Release;
+		};
+		5EBA3A8E1CFD2758002762D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WdyStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WdyStatusBarHUD;
+			};
+			name = Debug;
+		};
+		5EBA3A8F1CFD2758002762D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WdyStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WdyStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WdyStatusBarHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EBA3A551CFD2758002762D8 /* Build configuration list for PBXProject "WdyStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBA3A851CFD2758002762D8 /* Debug */,
+				5EBA3A861CFD2758002762D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBA3A871CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBA3A881CFD2758002762D8 /* Debug */,
+				5EBA3A891CFD2758002762D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBA3A8A1CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBA3A8B1CFD2758002762D8 /* Debug */,
+				5EBA3A8C1CFD2758002762D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBA3A8D1CFD2758002762D8 /* Build configuration list for PBXNativeTarget "WdyStatusBarHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBA3A8E1CFD2758002762D8 /* Debug */,
+				5EBA3A8F1CFD2758002762D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EBA3A521CFD2758002762D8 /* Project object */;
+}
